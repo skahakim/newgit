@@ -1,0 +1,9 @@
+echo "# newgit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git config --global user.name "hakeem"
+git config --global user.email "ichbin2914@gmail.com"
+git branch -M main
+git remote add origin https://github.com/skahakim/newgit.git
+git push -u origin main
